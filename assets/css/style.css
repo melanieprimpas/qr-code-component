@@ -1,0 +1,54 @@
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+main {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    margin: auto 50px; 
+    box-shadow: 5px 10px 10px rgb(173, 172, 172);
+}
+.qr-card {
+    background-color: white;
+    text-align: center;
+    max-width: 250px;
+     border-radius: 20px;
+}
+
+.qr-card img {
+    margin: 10px 10px 0px 10px;
+    max-width: 230px;
+    max-height: 300px;
+    border-radius: 5px;
+}
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.text {
+    margin: 15px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 13px;
+    color: gray;
+}
+
